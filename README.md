@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/html-and-cssflexbox-and-javascript-9MXYcjQnw)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/html-and-css-and-javascript-cEwQCQAc_)
 - Live Site URL: [live site URL](https://sunnyside-landinpage.netlify.app/)
 
 
