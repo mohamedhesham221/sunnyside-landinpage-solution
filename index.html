@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+  <header class="container">
+    <img src="images/logo.svg" alt="logo">
+    <img src="images/icon-hamburger.svg" alt="icon-hamburger" id="toggle">
+    <div class="clearfix"></div>
+    <nav id="nav">
+      <ul class="nav-list">
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+    <div class="get-started container">
+      <h2 class="heading">WE ARE CREATIVES</h2>
+      <img src="images/icon-arrow-down.svg" alt="arrow down">
+    </div>
+    <div class="brand">
+      <div class="bg-brand"></div>
+      <div class="txt-brand container">
+        <h2 class="head-brand">Transform your brand</h2>
+        <p class="desc-brand">We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <p class="more">Learn more</p>
+      </div>
+    </div>
+    <div class="audience">
+      <div class="bg-audience"></div>
+      <div class="txt-audience container">
+        <h2 class="head-audience">Stand out to the right audience</h2>
+        <p class="desc-audience">Using a collaborative formula of designers, researchers, photographers,
+            videographers, and copywriters, we’ll build and extend your brand in digital places. 
+        </p>
+        <p class="more">Learn more</p>
+      </div>
+    </div>
+    <div class="graphic-photography">
+      <div class="bg-graphic container">
+        <h2 class="head-graphic">Graphic design</h2>
+        <p class="txt-graphic">Great design makes you memorable. We deliver artwork that underscores your brand message
+            and captures potential clients’ attention.</p>
+      </div>
+      <div class="bg-photography  container">
+        <h2 class="head-photography">Photography</h2>
+        <p class="txt-photography">Increase your credibility by getting the most stunning,
+            high-quality photos that improve your business image.</p>
+      </div>
+    </div>
+    <div class="testimonials container">
+      <h2 class="head-testimonials">Client testimonials</h2>
+      <div class="items">
+        <div class="testimonial-item">
+          <img class="testimonial-item-profile" src="images/image-emily.jpg" alt="emily"><br>
+          <p class="testimonial-item-text">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <p class="testimonial-item-name">Emily R.</p>
+          <p class="testimonial-item-title">Marketing Director</p>
+        </div>
+        <div class="testimonial-item">
+          <img class="testimonial-item-profile" src="images/image-thomas.jpg" alt="thomas"><br>
+          <p class="testimonial-item-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+              success made it a satisfying and enjoyable experience</p>
+          <p class="testimonial-item-name">Thomas S.</p>
+          <p class="testimonial-item-title">Chief Operating Officer</p>
+        </div>
+        <div class="testimonial-item">
+          <img class="testimonial-item-profile" src="images/image-jennie.jpg" alt="jennie"><br>
+          <p class="testimonial-item-text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside.
+              Highly recommended!</p>
+          <p class="testimonial-item-name">Jennie F.</p>
+          <p class="testimonial-item-title">Business Owner</p>
+        </di>
+    </div>
+      </div>
+    </div>
+    <div class="images-collection">
+      <div class="bg-image"></div>
+      <div class="bg-image"></div>
+      <div class="bg-image"></div>
+      <div class="bg-image"></div>
+    </div>
+    <footer class="container">
+      <img class="footer-logo" src="images/footer-logo.svg" alt="logo">
+      <nav class="nav-footer">
+        <ul class="footer-nav-list">
+          <li>About</li>
+          <li>Service</li>
+          <li>Projects</li>
+        </ul>
+      </nav>
+      <div class="social">
+        <ul class="social-list">
+          <li class="social-item"><i class="fab fa-facebook-square"></i></li>
+          <li class="social-item"><i class="fab fa-instagram"></i></li>
+          <li class="social-item"><i class="fab fa-twitter"></i></li>
+          <li class="social-item"><i class="fab fa-pinterest"></i></li>
+        </ul>
+      </div>
+    </footer>
+  <script>
+    let nav =  document.getElementById("nav"),
+    toggle = document.getElementById("toggle");
+        toggle.onclick = () => nav.classList.toggle("isVisible");
+  </script>
+</body>
+</html>
